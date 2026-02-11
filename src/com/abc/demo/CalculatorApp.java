@@ -6,14 +6,12 @@ public class CalculatorApp {
 
 	public static void main(String[] args) {
 		 double num1, num2;
-	        Scanner sc = new Scanner(System.in);
+	       
+	        num1 = 10.45;
+	        num2 = 20.12;
 
-	        System.out.println("Enter the numbers:");
-	        num1 = sc.nextDouble();
-	        num2 = sc.nextDouble();
-
-	        System.out.println("Enter the operator (+, -, *):");
-	        char operator = sc.next().charAt(0);
+	      
+	        char operator = '+';
 
 	        double result;
 	        switch (operator) {
